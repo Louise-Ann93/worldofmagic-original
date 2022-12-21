@@ -1,6 +1,6 @@
-## The World of Magic ✨
+# The World of Magic ✨
 
-# Welcome to Litmorths, School of Witchcraft and Wizardry! 
+## Welcome to Litmorths, Academy Of Witchcraft ✨
 
 Have you just found out you're a Witch or Wizard,
 Maybe you've always known.
