@@ -155,10 +155,12 @@ body {
 }
 
 .btn-1 {
+	text-decoration: none;
     background-color: #302861;
     color: white;
     font-size: 16px;
-    padding: 3%;
+    padding: 10px 25px;
+	width: 33%;
     border: none;
     cursor: pointer;
     border-radius: 5px;
@@ -168,7 +170,7 @@ body {
 
 .btn-1:hover {
     background-color: #857dba;
-    color: white;
+    color: black;
 }
 
 /* Feature Boxes */
@@ -238,10 +240,12 @@ body {
 }
 
 .btn-2 {
+	text-decoration: none;
     background-color: #8bb2e3;
-    color: white;
-    font-size: 1rem;
-    padding: 2%;
+    color: black;
+    font-size: 14px;
+    padding: 10px;
+	width: 33%;
     border: none;
     cursor: pointer;
     border-radius: 5px;
@@ -252,7 +256,7 @@ body {
 
 .btn-2:hover {
     background-color: #468ce3;
-    color: white;
+    color: black;
 }
 
 /* Castle Video */
@@ -276,28 +280,30 @@ body {
     font-family: fantasy;
     font-size: 16px;
     margin-top: 2%;
-    margin-bottom: 0;
+    margin-bottom: 15px;
     display: block;
 }
 
 .btn-3 {
+	text-decoration: none;
     background-color: #302861;
     color: white;
     font-size: 16px;
-    padding: 10px 15px;
-    width: auto;
+    padding: 10px;
+    width: 33%;
     border: none;
     cursor: pointer;
     border-radius: 5px;
     text-align: center;
-    margin-left: 35%;
-    margin-right: auto;
+    display: block;
+	margin-left: auto;
+	margin-right: auto;
     font-family: fantasy;
 }
 
 .btn-3:hover {
     background-color: #857dba;
-    color: white;
+    color: black;
 }
 
 .video-1 {
@@ -369,10 +375,12 @@ textarea {
 }
 
 .btn-4 {
+	text-decoration: none;
     background-color: #8bb2e3;
-    color: white;
+    color: black;
     font-size: 16px;
-    padding: 7px 15px 7px 15px;
+    padding: 10px;
+	width: 33%;
     border: none;
     cursor: pointer;
     border-radius: 5px;
@@ -382,7 +390,7 @@ textarea {
 
 .btn-4:hover {
     background-color: #468ce3;
-    color: white;
+    color: black;
 }
 
 /* Footer */
