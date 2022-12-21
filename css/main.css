@@ -318,8 +318,7 @@ body {
 /* Contact us */
 
 .box-5 {
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 75%);
     text-align: center;
     display: block;
     color: white;
@@ -363,6 +362,17 @@ input[type=text] {
     cursor:text;
 }
 
+input[type=email] {
+	background-color: rgba(0, 0, 0, 0);
+	color: white;
+	border: none;
+	border-bottom: 2px solid white;
+	font-family: fantasy;
+	margin: 5px;
+	font-size: 16px;
+	cursor:text;
+}
+
 textarea {
     background-color: rgba(0, 0, 0, 0);
     color: white;
@@ -372,6 +382,7 @@ textarea {
     width: 100%;
     font-size: 16px;
     cursor:text;
+	resize: none;
 }
 
 .btn-4 {
