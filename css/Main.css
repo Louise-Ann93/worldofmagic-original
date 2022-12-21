@@ -5,6 +5,10 @@
     cursor: default;
 }
 
+body {
+	margin: 0 auto;
+}
+
 .container {
     width: 80%;
     margin-left: auto;
@@ -32,6 +36,8 @@
     width: 100%;
     overflow: hidden;
     background-color: black;
+	display: flex;
+	align-items: center;
 }
 
 .nav-bar a {
@@ -41,7 +47,7 @@
     text-decoration: none;
     float: left;
     background-color: black;
-    font-size: 0.75rem;
+    font-size: 16px;
 }
 
 .nav-bar a:hover {
@@ -58,19 +64,18 @@
     background-color: inherit;
     font-family: inherit;
     border: none;
-    font-size: 0.75rem;
+    font-size: 16px;
     outline: none;
     margin: 0;
 }
 
-<<<<<<< Updated upstream
 .dropdown-btn {
     color: white;
     padding: 10px 25px 10px 25px;
     background-color: inherit;
     font-family: inherit;
     border: none;
-    font-size: 0.75rem;
+    font-size: 16px;
     outline: none;
     margin: 0;
 }
@@ -87,7 +92,7 @@
     background-color: white;
     width: 30%;
     z-index: 1;
-    font-size: 0.75rem;
+    font-size: 16px;
 }
 
 .dropdown-content a {
@@ -97,7 +102,7 @@
     text-decoration: none;
     display: block;
     text-align: center;
-    font-size: 0.75rem;
+    font-size: 16px;
 }
 
 .dropdown-content a:hover {
@@ -119,46 +124,13 @@
     text-decoration: none;
     float: right;
     background-color: black;
-    font-size: 0.75rem;
+    font-size: 16px;
+	margin-left: auto;
 }
 
 .logo:hover {
     cursor: default;
 }
-=======
-/*#myLinks {*/
-/*    display: none;*/
-/*}*/
-/*.icon {*/
-/*    display: block;*/
-/*}*/
-
-/*.nav-bar-mobile {*/
-/*    font-family: fantasy, sans-serif;*/
-/*    !*overflow: hidden;*!*/
-/*    background-color: black;*/
-/*    width: 100%;*/
-/*    display: block;*/
-/*}*/
-
-/*.nav-bar-mobile a {*/
-/*    width: 100%;*/
-/*    color: white;*/
-/*    text-align: center;*/
-/*    padding: 10px 25px 10px 25px;*/
-/*    text-decoration: none;*/
-/*    float: left;*/
-/*    background-color: black;*/
-/*    font-size: 0.75rem;*/
-/*    display: block;*/
-/*}*/
-
-/*.nav-bar-mobile a:hover {*/
-/*    background-color: white;*/
-/*    color: black;*/
-/*    cursor: pointer;*/
-/*}*/
->>>>>>> Stashed changes
 
 /* Magic Book Image */
 
@@ -180,14 +152,14 @@
     color: white;
     Font-family: fantasy;
     text-align: left;
-    font-size: 0.75rem;
+    font-size: 16px;
     margin-top: 0;
 }
 
 .btn-1 {
     background-color: #302861;
     color: white;
-    font-size: 0.75rem;
+    font-size: 16px;
     padding: 3%;
     border: none;
     cursor: pointer;
@@ -225,15 +197,15 @@
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    width: 75%;
     padding: 5px 10px 20px 10px;
     border: 1px solid white;
-    margin-bottom: 15%;
     background-color: #302861;
     color: white;
     word-break: keep-all;
     display: block;
     box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 1), 0 40px 50px 0 rgba(0, 0, 0, 0.1);
+	width: 30%;
+	margin-bottom: 10%;
 }
 
 .header-3 {
@@ -246,7 +218,7 @@
 
 .snippet-3 {
     font-family: fantasy;
-    font-size: 0.75rem;
+    font-size: 16px;
     margin: 0px;
     padding-top: 5px;
     font-weight: Normal;
@@ -255,12 +227,12 @@
 /* Castle Image */
 
 .box-3 {
-    margin-top: 20%;
-    margin-bottom: 20%;
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center;
-    width: 85%;
+	margin-top: 5%;
+	margin-bottom: 20%;
+	margin-right: 0;
+	margin-left: auto;
+	text-align: center;
+	width: 50%;
     padding: 10px;
     border: 1px solid white;
     background-color: #302861;
@@ -307,7 +279,7 @@
     text-align: center;
     color: white;
     font-family: fantasy;
-    font-size: 0.75rem;
+    font-size: 16px;
     margin-top: 2%;
     margin-bottom: 0;
     display: block;
@@ -316,7 +288,7 @@
 .btn-3 {
     background-color: #302861;
     color: white;
-    font-size: 0.75rem;
+    font-size: 16px;
     padding: 10px 15px;
     width: auto;
     border: none;
@@ -334,8 +306,9 @@
 }
 
 .video-1 {
-    display: block;
-    width: 85%;
+	display: block;
+	width: 50%;
+	float: right;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -348,14 +321,14 @@
     background: rgba(0, 0, 0, 0.5);
     text-align: center;
     display: block;
-    width: 80%;
     color: white;
     word-break: keep-all;
     border: 1px solid white;
-    margin-left: auto;
     margin-right: auto;
     margin-bottom: 10%;
     padding: 10px 25px 10px 25px;
+	width: 30%;
+	margin-left: 0;
 }
 
 .contact-us {
@@ -385,7 +358,7 @@ input[type=text] {
     border-bottom: 2px solid white;
     font-family: fantasy;
     margin: 5px;
-    font-size: 0.75rem;
+    font-size: 16px;
     cursor:text;
 }
 
@@ -396,14 +369,14 @@ textarea {
     border-bottom: 2px solid white;
     font-family: fantasy;
     width: 100%;
-    font-size: 0.75rem;
+    font-size: 16px;
     cursor:text;
 }
 
 .btn-4 {
     background-color: #8bb2e3;
     color: white;
-    font-size: 0.75rem;
+    font-size: 16px;
     padding: 7px 15px 7px 15px;
     border: none;
     cursor: pointer;
@@ -429,6 +402,3 @@ textarea {
     padding: 10px;
 }
 
-body {
-    margin: 0px auto;
-}
