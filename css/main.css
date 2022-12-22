@@ -29,7 +29,7 @@ body {
 
 /* Navigation Bar */
 .nav-bar {
-    font-family: fantasy, sans-serif;
+    font-family: Nunito, sans-serif;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -141,7 +141,7 @@ body {
 
 .header-1 {
     color: #a0ced6;
-	font-family: sofia, serif;
+	font-family: Kalam, serif;
     text-align: left;
     margin: 0;
     text-shadow: 1px 1px 2px black, 0 0 25px dimgrey, 0 0 5px white;
@@ -149,7 +149,7 @@ body {
 
 .snippet-1 {
     color: white;
-    Font-family: fantasy;
+    Font-family: Nunito, sans-serif;
     text-align: left;
     margin-top: 0;
 }
@@ -165,7 +165,7 @@ body {
     cursor: pointer;
     border-radius: 5px;
     text-align: center;
-    font-family: fantasy;
+    font-family: Nunito, sans-serif;
 }
 
 .btn-1:hover {
@@ -177,7 +177,7 @@ body {
 
 .header-2 {
     color: #a0ced6;
-	font-family: sofia, serif;
+	font-family: Kalam, serif;
     text-align: center;
     margin-top: 0;
     margin-bottom: 5px;
@@ -187,7 +187,7 @@ body {
     color: white;
     margin-top: 0;
     margin-bottom: 10px;
-    font-family: fantasy;
+    font-family: Nunito, sans-serif;
     font-size: 16px;
     text-align: center;
 }
@@ -208,14 +208,14 @@ body {
 }
 
 .header-3 {
-	font-family: sofia, serif;
+	font-family: Kalam, serif;
     margin: 0;
     color: #a0ced6;
 
 }
 
 .snippet-3 {
-    font-family: fantasy;
+    font-family: Nunito, sans-serif;
     font-size: 16px;
     margin: 0px;
     padding-top: 5px;
@@ -250,7 +250,7 @@ body {
     cursor: pointer;
     border-radius: 5px;
     text-align: center;
-    font-family: fantasy;
+    font-family: Nunito, sans-serif;
     float: right;
 }
 
@@ -270,16 +270,17 @@ body {
 .header-4 {
     text-align: center;
     color: #a0ced6;
-	font-family: sofia, serif;
+	font-family: Kalam, serif;
     display: block;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 .snippet-4 {
     text-align: center;
     color: white;
-    font-family: fantasy;
+    font-family: Nunito, sans-serif;
     font-size: 16px;
-    margin-top: 2%;
     margin-bottom: 15px;
     display: block;
 }
@@ -298,7 +299,7 @@ body {
     display: block;
 	margin-left: auto;
 	margin-right: auto;
-    font-family: fantasy;
+    font-family: Nunito, sans-serif;
 }
 
 .btn-3:hover {
@@ -311,8 +312,7 @@ body {
 	width: 50%;
 	float: right;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 25px;
 }
 
 /* Contact us */
@@ -333,7 +333,7 @@ body {
 
 .contact-us {
     text-align: left;
-	font-family: sofia, serif;
+	font-family: Kalam, serif;
     font-size: 1.25rem;
     display: block;
     font-weight: bold;
@@ -342,7 +342,7 @@ body {
 
 .contact-form {
     text-align: left;
-    font-family: fantasy;
+    font-family: Nunito, sans-serif;
     font-size: 1rem;
     display: block;
     font-weight: Normal;
@@ -356,7 +356,7 @@ input[type=text] {
     color: white;
     border: none;
     border-bottom: 2px solid white;
-    font-family: fantasy;
+    font-family: Nunito, sans-serif;
     margin: 5px;
     font-size: 16px;
     cursor:text;
@@ -367,7 +367,7 @@ input[type=email] {
 	color: white;
 	border: none;
 	border-bottom: 2px solid white;
-	font-family: fantasy;
+	font-family: Nunito, sans-serif;
 	margin: 5px;
 	font-size: 16px;
 	cursor:text;
@@ -378,7 +378,7 @@ textarea {
     color: white;
     border: none;
     border-bottom: 2px solid white;
-    font-family: fantasy;
+    font-family: Nunito, sans-serif;
     width: 100%;
     font-size: 16px;
     cursor:text;
@@ -396,7 +396,7 @@ textarea {
     cursor: pointer;
     border-radius: 5px;
     text-align: center;
-    font-family: fantasy;
+    font-family: Nunito, sans-serif;
 }
 
 .btn-4:hover {
@@ -411,7 +411,7 @@ textarea {
     background-color: black;
     text-align: right;
     color: white;
-    font-family: fantasy;
+    font-family: Nunito, sans-serif;
     font-size: 1rem;
     padding: 10px;
 }
