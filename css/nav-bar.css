@@ -19,6 +19,7 @@
 	float: left;
 	background-color: black;
 	font-size: 16px;
+	line-height: 40px;
 }
 
 .nav-bar a:hover {
@@ -49,6 +50,7 @@
 	font-size: 16px;
 	outline: none;
 	margin: 0;
+	line-height: 40px;
 }
 
 .dropdown-btn:hover {
