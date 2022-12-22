@@ -7,21 +7,21 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-	<link rel="stylesheet" href="./css/animation.css">
+	<link rel="stylesheet" href="Assets/Css/animation.css">
 	<!--Stylesheets and Fonts-->
-	<link rel="stylesheet" type="text/css" href="./css/main.css">
-	<link rel="stylesheet" href="./css/nav-bar.css">
+	<link rel="stylesheet" type="text/css" href="Assets/Css/main.css">
+	<link rel="stylesheet" href="Assets/Css/nav-bar.css">
 	<link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
 	<link rel="stylesheet"
 		  href="https://fonts.googleapis.com/css?family=Kalam">
-	<link rel="icon" href="Images/favicon_io/favicon.ico">
+	<link rel="icon" href="Assets/Images/favicon_io/favicon.ico">
 
 	<title>The World of Magic</title>
 
 	<script>
 		function buttonClick () {
 			document.getElementById('slider').classList.toggle('closed');
-			document.getElementById('body').classList.toggle('closed')
+			document.getElementById('body').classList.toggle('show')
 		}
 	</script>
 
@@ -31,7 +31,7 @@
 
 <div class="slider closed" id="slider">
 	<button class="circleLogo" onclick="buttonClick()">
-		<img src="/Images/World-of-Magic.png" alt="Circle Logo">
+		<img class="cursor" src="/Assets/Images/World-of-Magic.png" alt="Circle Logo">
 	</button>
 </div>
 
@@ -76,12 +76,12 @@
 		</div>
 		<a href="/Contact-us/index.html" target="_self">Contact Us</a>
 		<div class="logo">
-			<img src="Images/logo-white.png" alt="world of magic logo" width="75">
+			<img src="Assets/Images/logo-white.png" alt="world of magic logo" width="75">
 		</div>
 	</nav>
 
 	<!-- Magic Book Image -->
-	<div class="section" style="background-image: url('Images/Magic.jpg')">
+	<div class="section" style="background-image: url('Assets/Images/Magic.jpg')">
 		<div class="container flex">
 			<div class="box-1">
 				<h1 class="header-1"><b>What is life<br>without a little magic!</b></h1>
@@ -123,7 +123,7 @@
 		</div>
 	</div>
 	<!-- Castle Image -->
-	<div class="section" style="background-image: url('Images/Neuschwanstein-Castle.jpeg')">
+	<div class="section" style="background-image: url('Assets/Images/Neuschwanstein-Castle.jpeg')">
 		<div class="container flex">
 			<div class="box-3">
 				<h2 class="header-2"><b>Our Package Prices</b></h2>
@@ -186,7 +186,7 @@
 		</div>
 	</div>
 	<!-- Contact us -->
-	<div class="section" style="background-image: url('Images/lounge.jpg')">
+	<div class="section" style="background-image: url('Assets/Images/lounge.jpg')">
 		<div class="box-5">
 			<h2 class="contact-us">Get in Touch</h2>
 			<form class="contact-form" action="/Home/Contact-us/index.html">
